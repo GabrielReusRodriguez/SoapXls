@@ -18,7 +18,7 @@
 	<xsl:template name="get_soap_v1_2_body">
 		<xsl:copy-of select="/soapenv:Envelope/soapenv:Body/*" />
 	</xsl:template>
-
+	
 	<!-- Generic -->
 	<xsl:template match="/">
 		<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
